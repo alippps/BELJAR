@@ -1,0 +1,120 @@
+* {
+  position: 0;
+  padding: 0;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+}
+.collapse {
+  word-spacing: 2px;
+  color: #000;
+}
+
+.container {
+  margin-top: 10px;
+  position: fixed;
+}
+.hero {
+  background-size: cover;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: #e2f6ca;
+}
+
+.about {
+  margin-top: 50px;
+  margin-left: 25px;
+}
+
+.teks {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 50px;
+  animation: teks 2s ease-in;
+}
+
+@keyframes teks {
+  0% {
+    color: #fff6e9;
+    transform: rotatex(90deg);
+    text-shadow: 2px 2px 3px #fff;
+  }
+  100% {
+    color: #000;
+  }
+}
+
+.about h1 {
+  font-size: 80px;
+  margin-bottom: 20px;
+  text-align: center;
+  animation: teks 2s ease-in;
+}
+
+.about p {
+  font-size: 25px;
+  text-align: center;
+  word-spacing: 3px;
+}
+
+.about img {
+  width: 200px;
+  height: 200px;
+  margin-top: 16px;
+}
+
+/*SECTION DISINI */
+
+.skill {
+  background-color: #f8fdcf;
+}
+
+.head {
+  text-align: center;
+  margin-left: 15px;
+  font-size: 50px;
+  animation: teks 2s;
+}
+.image {
+  padding-top: 5px;
+  text-align: center;
+}
+
+/*Contact*/
+.footer {
+  background-color: #f6f193;
+}
+
+.line {
+  text-align: center;
+  margin-left: 5px;
+  font-size: 50px;
+  animation: teks 2s;
+}
+
+.bot {
+  background-size: cover;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (min-width: 320px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+}
+@media (min-width: 481px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+@media (min-width: 641px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+}
+@media (min-width: 961px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+}
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
+}
