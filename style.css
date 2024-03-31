@@ -48,6 +48,7 @@
   font-size: 80px;
   margin-bottom: 20px;
   text-align: center;
+  text-shadow: 1px 1px 1px #d875c7;
   animation: teks 2s ease-in;
 }
 
